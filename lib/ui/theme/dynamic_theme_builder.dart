@@ -52,7 +52,7 @@ class _DynamicThemeBuilderState extends State<DynamicThemeBuilder>
         final ThemeData lightDynamicTheme = ThemeData(
           useMaterial3: true,
           navigationBarTheme: NavigationBarThemeData(
-            labelTextStyle: MaterialStateProperty.all(
+            labelTextStyle: WidgetStateProperty.all(
               GoogleFonts.roboto(
                 color: lightColorScheme?.onSurface,
                 fontWeight: FontWeight.w500,
@@ -66,7 +66,7 @@ class _DynamicThemeBuilderState extends State<DynamicThemeBuilder>
           brightness: Brightness.dark,
           useMaterial3: true,
           navigationBarTheme: NavigationBarThemeData(
-            labelTextStyle: MaterialStateProperty.all(
+            labelTextStyle: WidgetStateProperty.all(
               GoogleFonts.roboto(
                 color: darkColorScheme?.onSurface,
                 fontWeight: FontWeight.w500,
